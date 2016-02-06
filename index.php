@@ -45,7 +45,7 @@
                     lat: position.coords.latitude,
                     lng: position.coords.longitude,
                   };
-                  $.post( "classes.php", add_lat_long(lat,lng) {
+                  $.post( "classes.php", add_lat_long(lat.toString(),lng.toString()) {
                     alert( "Data Loaded: " + pos);});
                  
                   infoWindow.setPosition(pos);
