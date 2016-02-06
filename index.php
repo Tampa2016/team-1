@@ -83,35 +83,35 @@
 				<div class="responsive">
 					<div>
 						<div class="review">
-							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+							<h3>Title </h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+							<h3>Title </h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+							<h3>Title </h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+							<h3>Title </h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+							<h3>Title </h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
