@@ -5,19 +5,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                <br />
+                <br />
+                <br />
                     <h1>BE A HERO.</h1>
-                    <h2>Nearly 1 in 50 people live with paralysis.</h2>
+                    <h3>Nearly 1 in 50 people live with paralysis.</h3>
                 </div>
             </div>
         </div>
     </section>
 
 <!-- Map Section -->
+<div align="center">
+<h1>Map</h1> </div>
 <section id="map" class="map-section">
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-12">
-                    <h1>Map</h1>
+                    
                     <div id="map"></div>
     <script>
 // Note: This example requires that you consent to location sharing when
@@ -74,8 +80,10 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                  <h1>Mission</h1>
-                  <h2>The Reeve Foundation is dedicated to curing spinal cord injury by funding innovative research, and improving the quality of life for people living with paralysis through grants, information and advocacy.</h2>
+                  <h2>Mission</h2>
+                  <br />
+                  <br />
+                  <h4>The Reeve Foundation is dedicated to curing spinal cord injury by funding innovative research, and improving the quality of life for people living with paralysis through grants, information and advocacy.</h4>
                 </div>
             </div> 
         </div>
