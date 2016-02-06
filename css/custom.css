@@ -1,11 +1,15 @@
+  /* Navigation Menu */
+
 .navbar-default {
   background-color: #776F67;
-  border-bottom: 3px solid #d18f00;
+  border-bottom: 3px solid #e44e35;
 }
 
 .navbar-default .navbar-brand {
     color: #fff;
-    font-size: 38px;
+    background-image: url("img/flame.png");
+    font-size: 36px;
+    text-align:center;
     font-family: "Tahoma", sans-serif;
     font-weight: normal;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
@@ -25,33 +29,17 @@
   font-size: 22px;
 }
 .navbar-default .navbar-nav > li > a {
- border: 2px solid #d18f00;
-margin: 5px;
-border-radius: 5px;
+  border: 1px solid #e44e35;
+  margin: 5px;
+  border-radius: 5px;
   color: #fff9eb;
-    font-size: 22px;
+  font-size: 22px;
+  background-color: #898076;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #cdedfe;
-    font-size: 22px;
-}
-
-
-.intro-section {
-	background-color: ##fff5e0;
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 75px;
-    text-align: center;
-    background: #fffaf0;
-}
-
-h1 {
-	color: #E34E35;
-  margin: 5%;
-	padding: 3%;
+  background-color: #605953;
+  font-size: 22px;
 }
 
 .navbar-default .navbar-toggle {
@@ -72,17 +60,37 @@ h1 {
   background-color: #e7e7e7;
 }
 
-.info-section {
+  /* Misc Tags */
+
+h1 {
+	color: #E34E35;
+  margin: 5%;
+	padding: 3%;
+}
+
+
+  /* The frontpage sections */
+
+.info-section, .h1 {
     height: 100%;
-    padding-top: 25px;
+    padding-top: 5px;
     text-align: center;
-    background: #eee;
+    background: #e44e35;
+    color: #fff;
 }
 
 .map-section {
-    height: 100%;
+    height: 80%;
     padding-top: 25px;
-    margin: 5%;
+    margin: 7%;
     text-align: center;
     background: #fff;
+}
+
+
+.intro-section {
+    height: 60%;
+    padding-top: 75px;
+    text-align: center;
+    background-color: #fffff0;
 }
