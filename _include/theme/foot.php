@@ -60,6 +60,9 @@
     <!-- Custom Events Required for User Interface -->
     <script src="js/ajax-custom-events.js"></script>
 
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
