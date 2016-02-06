@@ -114,3 +114,27 @@ h4 {
     text-align: center;
     background-color: #fffff0;
 }
+
+
+
+
+.review{
+  width:96%; margin-right: 4%;
+  padding: 5px; border: 1px solid grey;
+  border-radius: 5px;
+
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.review h3{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin: 5px 0;
+}
+.review p{
+
+}
+.review p.posted{
+  color:lightgrey; font-size: 10px; font-style: italic;
+  margin-bottom: 0;
+}

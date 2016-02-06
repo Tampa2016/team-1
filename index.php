@@ -68,16 +68,58 @@
               async defer>
           </script>
 
-          <div class="responsive">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
-          </div>
-
         
       </div>
     </div>
   </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="review-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="responsive">
+					<div>
+						<div class="review">
+							<h3>Title</h3>
+							<p>Content</p>
+							<p class="posted"> 10:00 @ 2/6/2016</p>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<h3>Title</h3>
+							<p>Content</p>
+							<p class="posted"> 10:00 @ 2/6/2016</p>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<h3>Title</h3>
+							<p>Content</p>
+							<p class="posted"> 10:00 @ 2/6/2016</p>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<h3>Title</h3>
+							<p>Content</p>
+							<p class="posted"> 10:00 @ 2/6/2016</p>
+						</div>
+					</div>
+					<div>
+						<div class="review">
+							<h3>Title</h3>
+							<p>Content</p>
+							<p class="posted"> 10:00 @ 2/6/2016</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.responsive -->        
+			</div>
+		</div>
+	</div><br>
 </section>
     
         <!-- Info Section -->

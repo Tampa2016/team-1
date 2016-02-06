@@ -19,6 +19,7 @@
 
     <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick-theme.css">
 
     <!-- custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
