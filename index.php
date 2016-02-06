@@ -71,7 +71,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJSRWD6jbEFgREIGInrUNtw9IgstCD_u0&signed_in=true&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJwwNTTFGz7GqqTQWhZGmrru1ZJcQvtB8&signed_in=true&callback=initMap"
         async defer>
     </script>
                 </div>
