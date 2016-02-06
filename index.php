@@ -1,4 +1,4 @@
-<?php include "_include/theme/head.php"; include "_include/classes.php";  ?>
+<?php include "_include/classes.php"; include "_include/theme/head.php";   ?>
     <h1>Code for Good!</h1>
 
 
