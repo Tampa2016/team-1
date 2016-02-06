@@ -19,7 +19,7 @@
 <!-- Map Section -->
 <!-- <div align="center">
 <h1>Map</h1> </div> -->
-<div class="report"><button class="btn btn-danger btn-block btn-report" data-toggle="modal" data-target=".review">Report Obstruction</button></div>
+<div class="report"><button class="btn btn-danger btn-block" data-toggle="modal" data-target=".reviewForm">Report Obstruction</button></div>
 <section id="map" class="map-section">
   <div class="container">
     <div class="row">

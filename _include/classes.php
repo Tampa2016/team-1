@@ -124,7 +124,31 @@ class exists{
 	}
 }
 
+class reviews(){
 
+	function get_info($userpk){
+		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
+		$user = isset( $_SESSION[SESSION_USERNAME] ) ? $_SESSION[SESSION_USERNAME] : "";
+		$query = mysqli_query($conn, "SELECT * FROM `review` WHERE user_pk = '$user' " );
+		if ($query) {
+			$row = mysqli_fetch_array($query, MYSQLI_BOTH);
+			
+			if($func == "get_pk"){
+				return $row['review_pk']
+			}
+			if($func == "get_points"){
+				return number_format ( intval($row['user_points']) );
+			}
+			if($func == "get_username"){
+				return $row['user_name'];
+			}
+			if($func == "get_password"){
+				return $row['user_pass'];
+			}
+		}else{ echo "fail";	}
+	}
+
+}
 
 
 

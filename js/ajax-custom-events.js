@@ -7,6 +7,7 @@ $(".toCreate").click( function() { console.log("click");
 	$('.login').modal('hide');
 });
 $(".toLogin").click( function() { console.log("click");
+	$('.review').modal('hide');
 	$('.create').modal('hide');
 	$('.login').modal('show');
 });
