@@ -1,0 +1,56 @@
+.navbar-default {
+  background-color: #776F67;
+  border-bottom: 3px solid #d18f00;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 34px;
+    font-family: "Tahoma", sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
+}
+
+.navbar-default .navbar-text {
+  color: #fff;
+  font-size: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+    font-size: 20px;
+}
+
+
+
+.intro-section {
+	background-color: ##fff5e0;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    background: #fffaf0;
+}
+
+h1 {
+	color: #E34E35;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
