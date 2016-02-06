@@ -52,6 +52,25 @@
 	</div>
 </div>
 
+<div class="modal fade create" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+	<div class="modal-dialog">
+		<div class="modal-content" style="padding:15px;">
+			<form method="POST">
+				<?php $objSession = new session(); 
+                            if($objSession->is_logged_in()): ?>
+					<div class="form-group">
+						<button type="button" class="btn btn-block btn-create">Submit Report</button>
+					</div>
+				<?php else: ?>
+					<div class="form-group">
+						<button type="button" class="btn btn-block btn-create">Submit Report</button>
+					</div>
+				<?php endif;?>
+			</form>
+		</div>
+	</div>
+</div>
+
 </div>
 
 

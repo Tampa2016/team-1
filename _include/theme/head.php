@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Reeve Foundation</title>
+    <title>Evermore | Reeve Foundation</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Reeve Foundation</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Evermore</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

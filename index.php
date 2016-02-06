@@ -19,12 +19,12 @@
 <!-- Map Section -->
 <!-- <div align="center">
 <h1>Map</h1> </div> -->
-<div class="report"><button class="btn btn-danger btn-block">Report Obstruction</button></div>
+<div class="report"><button class="btn btn-danger btn-block" >Report Obstruction</button></div>
 <section id="map" class="map-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-      
+
           <script>
             // Note: This example requires that you consent to location sharing when
             // prompted by your browser. If you see the error "The Geolocation service
@@ -123,18 +123,18 @@
 	</div><br>
 </section>
     
-        <!-- Info Section -->
-    <section id="info" class="info-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <h2>Mission</h2>
-                  <br />
-                  <br />
-                  <h4>The Reeve Foundation is dedicated to curing spinal cord injury by funding innovative research, and improving the quality of life for people living with paralysis through grants, information and advocacy.</h4>
-                </div>
-            </div> 
-        </div>
-    </section>
+<!-- Info Section -->
+<section id="info" class="info-section">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<h2>Mission</h2>
+<br />
+<br />
+<h4>The Reeve Foundation is dedicated to curing spinal cord injury by funding innovative research, and improving the quality of life for people living with paralysis through grants, information and advocacy.</h4>
+</div>
+</div> 
+</div>
+</section>
 
 <?php include "_include/theme/foot.php"; ?>
