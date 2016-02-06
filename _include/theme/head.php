@@ -58,7 +58,7 @@
                      <li>
                         <a class="page-scroll" href="#map">Map</a>
                     </li>
-                    <li style="padding-top:5px;">
+                    <li class style="padding-top:5px;">
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".login">
                             Login
                         </button>
