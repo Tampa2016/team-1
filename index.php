@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>"ESTABLISH BETTER QUALITY OF LIFE FOR PEOPLE WITH DISABILITIES."</h1>
+                    <h1>Be a hero.</h1>
                     <a class="btn btn-default page-scroll" href="#info">Down</a>
                 </div>
             </div>
