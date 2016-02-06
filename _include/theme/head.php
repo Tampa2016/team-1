@@ -71,20 +71,25 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#info">Mission</a>
-                    </li>
                      <li>
                         <a class="page-scroll" href="#atlas">Atlas</a>
                     </li>
                     <li>
-                        <?php $objSession = new session(); 
-                            if($objSession->is_logged_in()): ?>
-                            <a type="button" class="page-scroll logout">Logout</a>
-                        <?php else: ?>
-                            <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
-                        <?php endif;?>
+                        <a class="page-scroll" href="#info">Mission</a>
                     </li>
+                    <?php $objSession = new session(); 
+                            if($objSession->is_logged_in()): ?>
+                    <li>
+                        <a class="page-scroll" href="profile">Profile</a>
+                    </li>
+                    <li>
+                        <a type="button" class="page-scroll logout">Logout</a>
+                    </li>
+                    <?php else: ?>
+                    <li>
+                        <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
+                    </li>
+                    <?php endif;?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
