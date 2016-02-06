@@ -9,6 +9,7 @@
 	<div class="modal-dialog modal-sm">
 		<div class="modal-content" style="padding:15px;">
 			<form method="POST">
+				<div id="login-results"></div>
 				<div class="form-group">
 					<input type="text" name="username" class="form-control" placeholder="Username" />
 				</div>
@@ -30,14 +31,15 @@
 	<div class="modal-dialog modal-sm">
 		<div class="modal-content" style="padding:15px;">
 			<form method="POST">
+				<div id="create-results"></div>
 				<div class="form-group">
-					<input type="text" name="email" class="form-control" placeholder="Email Address" />
+					<input type="text" name="createEmail" class="form-control" placeholder="Email Address" />
 				</div>
 				<div class="form-group">
-					<input type="text" name="username" class="form-control" placeholder="Username" />
+					<input type="text" name="createUsername" class="form-control" placeholder="Username" />
 				</div>
 				<div class="form-group">
-					<input type="password" name="password" class="form-control" placeholder="Password" />
+					<input type="password" name="createPassword" class="form-control" placeholder="Password" />
 				</div>
 				<div class="form-group">
 					<button type="button" class="btn btn-block btn-create">CREATE</button>
