@@ -1,8 +1,13 @@
-<?php include "_include/classes.php"; include "_include/theme/head.php";  ?>
+<?php include "_include/classes.php"; include "_include/theme/head.php";  
+
+	$objSession = new session(); 
+	if(!$objSession->is_logged_in()){ header("Location: index.php");}
+
+?>
   
 <div class="twocol">
 	<div class="col1">
-		<a href=""><img src="img/nopic.gif" height="90" width="90" alt="Userpic" title="Userpic"></a>
+		<a href=""><img src="img/nopic.gif" height="100" width="100" alt="Userpic" title="Userpic"></a>
 		<h3>Username:</h3>
 		<h3>Points Earned:</h3>
 	</div><!-- /.col1 -->
