@@ -36,7 +36,15 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
+    <!--Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -51,6 +59,7 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -69,27 +78,22 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="page-scroll" href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#info">Mission</a>
                     </li>
                      <li>
                         <a class="page-scroll" href="#atlas">Atlas</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#info">Mission</a>
-                    </li>
-                    <?php $objSession = new session(); 
+                        <?php $objSession = new session(); 
                             if($objSession->is_logged_in()): ?>
-                    <li>
-                        <a class="page-scroll" href="profile">Profile</a>
+                            <a type="button" class="page-scroll logout">Logout</a>
+                        <?php else: ?>
+                            <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
+                        <?php endif;?>
                     </li>
-                    <li>
-                        <a type="button" class="page-scroll logout">Logout</a>
-                    </li>
-                    <?php else: ?>
-                    <li>
-                        <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
-                    </li>
-                    <?php endif;?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

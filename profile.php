@@ -8,8 +8,11 @@
 <div class="twocol">
 	<div class="col1">
 		<a href=""><img src="img/nopic.gif" height="100" width="100" alt="Userpic" title="Userpic"></a>
-		<h3>Username:</h3>
-		<h3>Points Earned:</h3>
+		
+		<?php $objUser = new users();  $username = $objUser->user_info('get_username');?>
+		<h3>Username:<?php echo $username;?></h3>
+		<?php $points = $objUser->user_info('get_points');?>
+		<h3>Points Earned: <?php echo $points;?></h3>
 	</div><!-- /.col1 -->
 	<div class="col2">
 		<h3>Frequently Pinned Areas</a></h3>
