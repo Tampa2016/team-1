@@ -82,8 +82,18 @@ h2 {
   color: #555;
   background-color: #e7e7e7;
 }
+.navbar-default .navbar-nav > li > button {
+  border: 1px solid #e44e35;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff9eb;
+  font-size: 22px;
+  background-color: #898076;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   /* Misc Tags */
+}
 
 h1 {
 	color: #E34E35;

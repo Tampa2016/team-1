@@ -6,7 +6,22 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>BE A HERO.</h1>
+<<<<<<< HEAD
                     <h2>Nearly 1 in 50 people live with paralysis.</h2>
+=======
+                    <a class="btn btn-default page-scroll" href="#info">Down</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Info</h1>
+>>>>>>> 4b5fa041c6bc8f5c727c4129dbd544eaf3cef2bf
                 </div>
             </div>
         </div>
