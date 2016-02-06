@@ -41,6 +41,7 @@ $(".btn-login").click( function() { console.log("click");
 			'func':'account-login', 'user':user, 'pass':pass
 		},
 		success: function(data) {
+			if(data == "loggedin"){location.reload();}
 			$("#login-results").html(data);
 		}
 	});
@@ -57,6 +58,7 @@ $(".logout").click( function() { console.log("click");
 		},
 		success: function(data) {
 			console.log(data);
+			location.reload();
 			/*$("#login-results").html(data);*/
 		}
 	});

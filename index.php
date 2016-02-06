@@ -88,3 +88,5 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
             </div> 
         </div>
     </section>
+
+<?php include "_include/theme/foot.php"; ?>
