@@ -1,7 +1,7 @@
-<?php include "_inlcude/theme/head.php"; include "_inlcude/classes.php";  ?>
+<?php include "_include/theme/head.php"; include "_include/classes.php";  ?>
 
 
 <h1>404 Not Found!</h1>
 
 
-<?php include "_inlcude/theme/foot.php"; ?>
+<?php include "_include/theme/foot.php"; ?>
