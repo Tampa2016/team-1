@@ -28,7 +28,8 @@
   font-size: 22px;
 }
 .navbar-default .navbar-nav > li > a {
-  border: 1px solid #e44e35;
+  border: 1px solid #e8a44a;
+  cursor: pointer;
   margin: 5px;
   border-radius: 5px;
   color: #fff9eb;
