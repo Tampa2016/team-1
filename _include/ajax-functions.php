@@ -18,8 +18,12 @@
 			$objUser = new users();
 			$objExists = new exists();
 			
-			if(!$objExists-> user_exists($user)){
-				$objUser->create_user($email, $user, $pass);
+			if(!$objExists-> user_exists($user))){
+				if(!$objUser->email_exists($email){
+					$objUser->create_user($email, $user, $pass);
+				} else{
+					echo '<p style="color:red;">There is a user with that email already!</p>';
+				}
 			}else{
 				echo '<p style="color:red;">There is a user with that username already!</p>';
 			}

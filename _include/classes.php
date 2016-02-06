@@ -125,6 +125,14 @@ class exists{
 			return true;
 		} else{ return false; }
 	}
+	function email_exists($email){
+		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
+		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user_email = '$email' " );
+		$numrows =  mysqli_num_rows($query);
+		if($numrows == 1){
+			return true;
+		} else{ return false; }		
+	}
 	function pass_match($user, $pass){
 		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
 		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user_name = '$user' " );
