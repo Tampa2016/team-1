@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
 
-    <title>Evermore | Reeve Foundation</title>
+    <title>Evermore</title>
 
 
     <!-- Bootstrap Core CSS -->
