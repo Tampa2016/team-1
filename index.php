@@ -83,35 +83,35 @@
 				<div class="responsive">
 					<div>
 						<div class="review">
-							<h3>Title</h3>
+							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title</h3>
+							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title</h3>
+							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title</h3>
+							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
 					</div>
 					<div>
 						<div class="review">
-							<h3>Title</h3>
+							<h3>Title <a style="text-align:right" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
 							<p>Content</p>
 							<p class="posted"> 10:00 @ 2/6/2016</p>
 						</div>
@@ -136,5 +136,6 @@
             </div> 
         </div>
     </section>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 <?php include "_include/theme/foot.php"; ?>
