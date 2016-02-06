@@ -83,35 +83,35 @@
 				<div class="responsive">
         <div>
 					<div class="review">
-              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a><div class="fb-share-button" data-href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info" data-layout="button"></div></h3>
               <p>Content</p>
               <p class="posted"> 10:00 @ 2/6/2016</p>
             </div>
           </div>
           <div>
             <div class="review">
-              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a><div class="fb-share-button" data-href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info" data-layout="button"></div></h3>
               <p>Content</p>
               <p class="posted"> 10:00 @ 2/6/2016</p>
             </div>
           </div>
           <div>
             <div class="review">
-              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a><div class="fb-share-button" data-href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info" data-layout="button"></div></h3>
               <p>Content</p>
               <p class="posted"> 10:00 @ 2/6/2016</p>
             </div>
           </div>
           <div>
             <div class="review">
-              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a><div class="fb-share-button" data-href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info" data-layout="button"></div></h3>
               <p>Content</p>
               <p class="posted"> 10:00 @ 2/6/2016</p>
             </div>
           </div>
           <div>
             <div class="review">
-              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></h3>
+              <h3>Title <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <div class="fb-share-button" data-href="http://ec2-54-163-131-112.compute-1.amazonaws.com/#info" data-layout="button"></div></h3>
               <p>Content</p>
               <p class="posted"> 10:00 @ 2/6/2016</p>
             </div>
