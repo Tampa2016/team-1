@@ -28,7 +28,8 @@
   font-size: 22px;
 }
 .navbar-default .navbar-nav > li > a {
-  border: 1px solid #e44e35;
+  border: 1px solid #e8a44a;
+  cursor: pointer;
   margin: 5px;
   border-radius: 5px;
   color: #fff9eb;
@@ -45,22 +46,16 @@
 	background-color: ##fff5e0;
 }
 
-.intro-section {
-    height: 100%;
-    padding-top: 75px;
-    text-align: center;
-    background: #fffaf0;
-}
 
 h1 {
 	color: #E34E35;
+  /*
 	padding-top: 50px;
+  */
 }
 
 h2 {
   color: #E34E35;
-
-  background-color: #605953;
   font-size: 22px;
 }
 
@@ -82,20 +77,6 @@ h2 {
   background-color: #e7e7e7;
 }
 
-/*
-.navbar-default .navbar-nav > li > button {
-  border: 1px solid #e44e35;
-  margin: 5px;
-  border-radius: 5px;
-  color: #fff9eb;
-  font-size: 22px;
-  background-color: #898076;
-  padding-top: 15px;
-  padding-bottom: 15px;
-*/
-  /* Misc Tags */
-}
-
 h1 {
 	color: #E34E35;
   margin: 5%;
@@ -106,16 +87,16 @@ h1 {
   /* The frontpage sections */
 
 .info-section, .h1 {
-    height: 100%;
     padding-top: 5px;
+    height: 60%;
     text-align: center;
     background: #e44e35;
     color: #fff;
 }
 
 .map-section {
-    height: 80%;
     padding-top: 25px;
+    height: 60%;
     margin: 7%;
     text-align: center;
     background: #fff;
@@ -123,8 +104,8 @@ h1 {
 
 
 .intro-section {
-    height: 60%;
     padding-top: 75px;
+    height: 60%;
     text-align: center;
     background-color: #fffff0;
 }
