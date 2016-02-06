@@ -45,19 +45,24 @@ class session {
 class users {
 	public $conn;
 
-	function create_user($username, $password){
+	function create_user($email, $username, $password){
 
 		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
 
-		$cols = " pk, badges, points, user, pass ";
+		$cols = " user_pk, user_name, user_pass, user_email, user_badges, user_points, user_timestamp ";
 
 		$badges = mysql_escape_string(serialize(array('A')));
 
 		$password = md5($password);
 
-		$vals = " null, '$badges', 0, '$username', '$password'  ";
+		$vals = " null, '$username', '$password', '$email', '$badges', 0, null ";
 
 		$query = mysqli_query($conn, "INSERT INTO `user` ($cols) VALUES ($vals) ") or die(mysqli_error($conn)); 
+		if ($query) {
+			echo '<p style="color:green;">Your account is now active!</p>';
+		}else{
+			echo '<p style="color:red;">Something went wrong!</p>';
+		}
 	}
 
 	function user_info($func){
