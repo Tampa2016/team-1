@@ -11,6 +11,11 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
 }
 
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+
 .navbar-default .navbar-text {
   color: #fff;
   font-size: 20px;
