@@ -31,6 +31,7 @@ body{ margin-top: 110px;}
 }
 .navbar-default .navbar-nav > li > a {
   border: 1px solid #E44E35;
+  cursor: pointer;
   margin: 5px;
   border-radius: 5px;
   color: #fff9eb;
@@ -114,7 +115,7 @@ h4 {
 
 
 .intro-section {
-    height: 55%;
+    height: 60%;
     text-align: center;
     background-color: #fffff0;
 }
