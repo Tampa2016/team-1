@@ -5,19 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>"ESTABLISH BETTER QUALITY OF LIFE FOR PEOPLE WITH DISABILITIES."</h1>
-                    <a class="btn btn-default page-scroll" href="#info">Down</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Info Section -->
-    <section id="info" class="info-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Info</h1>
+                    <h1>BE A HERO.</h1>
+                    <h2>Nearly 1 in 50 people live with paralysis.</h2>
                 </div>
             </div>
         </div>
@@ -76,6 +65,21 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     </script>
                 </div>
             </div>
+        </div>
+    </section>
+        <!-- Info Section -->
+    <section id="info" class="info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Mission</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                  <h2>The Reeve Foundation is dedicated to curing spinal cord injury by funding innovative research, and improving the quality of life for people living with paralysis through grants, information and advocacy.</h2>
+                </div>
+            </div> 
         </div>
     </section>
 

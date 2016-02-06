@@ -53,7 +53,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#info">Info</a>
+                        <a class="page-scroll" href="#info">Mission</a>
                     </li>
                      <li>
                         <a class="page-scroll" href="#map">Map</a>

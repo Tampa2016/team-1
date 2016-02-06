@@ -19,7 +19,6 @@
     color: #fff;
 }
 
-
 .navbar-default .navbar-text {
   color: #fff9eb;
   font-size: 22px;
@@ -36,7 +35,6 @@ border-radius: 5px;
     font-size: 22px;
 }
 
-
 .intro-section {
 	background-color: ##fff5e0;
 }
@@ -50,8 +48,11 @@ border-radius: 5px;
 
 h1 {
 	color: #E34E35;
-  margin: 5%;
-	padding: 3%;
+	padding-top: 50px;
+}
+
+h2 {
+  color: #E34E35;
 }
 
 .navbar-default .navbar-toggle {
