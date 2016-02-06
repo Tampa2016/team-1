@@ -11,10 +11,10 @@
 			<form method="POST">
 				<div id="login-results"></div>
 				<div class="form-group">
-					<input type="text" name="username" class="form-control" placeholder="Username" />
+					<input type="text" name="loginUsername" class="form-control" placeholder="Username" />
 				</div>
 				<div class="form-group">
-					<input type="password" name="password" class="form-control" placeholder="Password" />
+					<input type="password" name="loginPassword" class="form-control" placeholder="Password" />
 				</div>
 				<div class="form-group">
 					<button type="button" class="btn btn-block btn-login">LOGIN</button>
@@ -56,15 +56,6 @@
 
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
 
     <!-- Custom Events Required for User Interface -->
     <script src="js/ajax-custom-events.js"></script>

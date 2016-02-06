@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,6 +19,16 @@
 
     <!-- custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,7 +69,12 @@
                         <a class="page-scroll" href="#map">Map</a>
                     </li>
                     <li>
-                        <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
+                        <?php $objSession = new session(); 
+                            if($objSession->is_logged_in()): ?>
+                            <a type="button" class="page-scroll logout">Logout</a>
+                        <?php else: ?>
+                            <a type="button" class="page-scroll" data-toggle="modal" data-target=".login">Login</a>
+                        <?php endif;?>
                     </li>
                 </ul>
             </div>

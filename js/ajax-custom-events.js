@@ -29,6 +29,37 @@ $(".btn-create").click( function() { console.log("click");
 	});
 });
 
+$(".btn-login").click( function() { console.log("click");
+	
+	var user = $('input[name="loginUsername"]').val(),
+		pass = $('input[name="loginPassword"]').val();
 
+	$.ajax({
+		url: "_include/ajax-functions.php",
+		type: "POST",
+		data: {
+			'func':'account-login', 'user':user, 'pass':pass
+		},
+		success: function(data) {
+			$("#login-results").html(data);
+		}
+	});
+});
+
+
+$(".logout").click( function() { console.log("click");
+	
+	$.ajax({
+		url: "_include/ajax-functions.php",
+		type: "POST",
+		data: {
+			'func':'account-logout'
+		},
+		success: function(data) {
+			console.log(data);
+			/*$("#login-results").html(data);*/
+		}
+	});
+});
 
 });// doc ready close

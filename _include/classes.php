@@ -15,6 +15,8 @@ define('SESSION_LOGGEDIN', 'LOGGEDIN');
 /**
 * 
 */
+
+
 class session {
 	
 	function is_logged_in(){
@@ -34,6 +36,8 @@ class session {
 		$_SESSION[SESSION_LOGGEDIN] = 0;
 
 		session_destroy();
+
+		header("index");
 	}
 
 }
@@ -68,26 +72,57 @@ class users {
 	function user_info($func){
 		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
 		$user = isset( $_SESSION[SESSION_USERNAME] ) ? $_SESSION[SESSION_USERNAME] : "";
-		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user = 'user' " );
-		$row = mysqli_fetch_array($query, MYSQLI_BOTH);
-		
-		if($func = "get_badges"){
-			$badges = unserialize($row['badges']);
-			return $badges;
-		}
-		if($func = "get_points"){
-			return number_format ( intval($row['points']) );
-		}
-		if($func = "get_username"){
-			return $row['user'];
-		}
-		if($func = "get_password"){
-			return $row['pass'];
-		}
+		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user_name = '$user' " );
+		if ($query) {
+			$row = mysqli_fetch_array($query, MYSQLI_BOTH);
+			
+			if($func == "get_badges"){
+				$badges = unserialize($row['user_badges']);
+				#return $badges;
+			}
+			if($func == "get_points"){
+				return number_format ( intval($row['user_points']) );
+			}
+			if($func == "get_username"){
+				return $row['user_name'];
+			}
+			if($func == "get_password"){
+				return $row['user_pass'];
+			}
+		}else{ echo "fail";	}
 	}
 
 }
 
+
+class exists{
+	public $conn;
+
+	function user_exists($name){
+		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
+		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user_name = '$name' " );
+		$numrows =  mysqli_num_rows($query);
+		if($numrows == 1){
+			return true;
+		} else{ return false; }
+	}
+	function pass_match($user, $pass){
+		$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
+		$query = mysqli_query($conn, "SELECT * FROM `user` WHERE user_name = '$user' " );
+		if ($query) {
+			$row = mysqli_fetch_array($query, MYSQLI_BOTH);
+
+			$stored_pass = $row['user_pass'];
+
+			$test_pass = md5($pass);
+
+			if($test_pass == $stored_pass){
+				return true;
+			} else { return false;}
+
+		}else{	}
+	}
+}
 
 
 
