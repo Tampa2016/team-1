@@ -21,6 +21,9 @@
     <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick-theme.css">
 
+    <!-- Font Awesome Font  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <!-- custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
@@ -67,7 +70,7 @@
                         <a class="page-scroll" href="#info">Mission</a>
                     </li>
                      <li>
-                        <a class="page-scroll" href="#map">Map</a>
+                        <a class="page-scroll" href="#atlas">Atlas</a>
                     </li>
                     <li>
                         <?php $objSession = new session(); 

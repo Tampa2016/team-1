@@ -89,6 +89,9 @@ h4 {
 }
 
 
+.anchor{
+  height: 75px;
+}
 
 
   /* The frontpage sections */
@@ -103,7 +106,7 @@ h4 {
 
 .map-section {
     height: 60%;
-    margin: 7%;
+    margin: 20px 7%;
     text-align: center;
     background: #ebf8ff;
 }
@@ -116,7 +119,9 @@ h4 {
 }
 
 
+.report{ padding: 0 7%;}
 
+.slick-slide{ outline:0px !important;}
 
 .review{
   width:96%; margin-right: 4%;

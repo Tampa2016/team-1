@@ -15,14 +15,16 @@
         </div>
     </section>
 
+<div id="atlas" class="anchor"></div>
 <!-- Map Section -->
-<div align="center">
-<h1>Map</h1> </div>
+<!-- <div align="center">
+<h1>Map</h1> </div> -->
+<div class="report"><button class="btn btn-danger btn-block">Report Obstruction</button></div>
 <section id="map" class="map-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div id="map"></div>
+      
           <script>
             // Note: This example requires that you consent to location sharing when
             // prompted by your browser. If you see the error "The Geolocation service
@@ -68,7 +70,6 @@
               async defer>
           </script>
 
-        
       </div>
     </div>
   </div>
