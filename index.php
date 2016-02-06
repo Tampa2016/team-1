@@ -45,7 +45,6 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-      alert(pos)
 
       infoWindow.setPosition(pos);
       infoWindow.setContent('Location found.');
@@ -70,6 +69,12 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJwwNTTFGz7GqqTQWhZGmrru1ZJcQvtB8&signed_in=true&callback=initMap"
         async defer>
     </script>
+   <div class ="fade">
+    <!--get data pictures -
+    foreach($...) {
+      echo "< >";
+    }-->
+    </div>
                 </div>
             </div>
         </div>
