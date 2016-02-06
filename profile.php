@@ -4,7 +4,7 @@
 	if(!$objSession->is_logged_in()){ header("Location: index.php");}
 
 ?>
-  
+  <center>
 <div class="twocol">
 	<div class="col1">
 		<a href=""><img src="img/nopic.gif" height="100" width="100" alt="Userpic" title="Userpic"></a>
@@ -67,7 +67,6 @@
 						async defer>
 						</script>
 					</div><!-- /.col-lg-12 -->
-				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /#map -->
 	</div><!-- /.col2 -->
@@ -77,15 +76,14 @@
 <!-- Info Section -->
 <section id="info" class="info-section">
 <div class="container">
-<div class="row">
 <div class="col-lg-12">
+</div>
 <h2>Badges & Rewards</h2>
 <br />
 <br />
 <h4></h4>
-</div>
 </div> 
 </div>
 </section>
-
+</center>
 <?php include "_include/theme/foot.php"; ?>
