@@ -5,6 +5,7 @@ picture blob not null,
 picture_size varchar(25) not null default '',
 picture_type varchar(25) not null default '',
 picture_name varchar(100) not null default '',
+picture_location varchar(50) not null,
 user_pk varchar(25) not null,
 picture_info varchar(256) not null default '',
 PRIMARY KEY picture_pk
