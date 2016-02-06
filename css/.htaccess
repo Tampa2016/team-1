@@ -1,0 +1,10 @@
+
+# BEGIN Rewrite
+
+ErrorDocument 404 /code4good/team-1/404.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# END Rewrite
