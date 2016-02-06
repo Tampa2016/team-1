@@ -34,7 +34,7 @@
 			if($objExists->pass_match($user,$pass)){
 				$objSession = new session();
 				$objSession->set_session($user);
-				header("index");
+				echo "loggedin";
 			}else{
 				echo '<p style="color:red;">Your password does not match the database!</p>';
 			}
