@@ -17,6 +17,29 @@ define('SESSION_LOGGEDIN', 'LOGGEDIN');
 */
 
 
+funct add_lat_long($longtitude, $latitude) {
+	public $conn;
+	$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
+
+	$cols = " pic_log,pic_lat,pic_name,";
+
+	$badges = mysql_escape_string(serialize(array('A')));
+
+	$password = md5($password);
+
+	$vals = " null, '$pic_lat', '$pic_lat', '$picname', $longtitude,$latitude, null ";
+
+	$query = mysqli_query($conn, "INSERT INTO `picture` ($cols) VALUES ($vals) ") or die(mysqli_error($conn)); 
+	if ($query) {
+		echo '<p style="color:green;">This is saved!</p>';
+	}else{
+		echo '<p style="color:red;">Didnt save!</p>';
+	}
+}
+
+
+
+
 class session {
 	
 	function is_logged_in(){
