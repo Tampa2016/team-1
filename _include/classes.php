@@ -21,9 +21,9 @@ funct add_lat_long($longtitude, $latitude) {
 	public $conn;
 	$conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME); 
 
-	$cols = "pic_pk, pic_log,pic_lat,pic_name,";
+	$cols = "pic_pk, pic_log,pic_lat,pic_name,pic_url,pic_size,pic_type,pic_timestamp,review_pk";
 
-	$vals = " null,$longtitude,$latitude, null";
+	$vals = " null,$longtitude,$latitude, 'test','test','test','test','test','test';
 
 	$query = mysqli_query($conn, "INSERT INTO `picture` ($cols) VALUES ($vals) ") or die(mysqli_error($conn)); 
 	if ($query) {
