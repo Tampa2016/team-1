@@ -37,8 +37,32 @@
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #cdedfe;
+<<<<<<< HEAD
+    font-size: 22px;
+}
+
+.intro-section {
+	background-color: ##fff5e0;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    background: #fffaf0;
+}
+
+h1 {
+	color: #E34E35;
+	padding-top: 50px;
+}
+
+h2 {
+  color: #E34E35;
+=======
   background-color: #605953;
   font-size: 22px;
+>>>>>>> b36864af8a9db03020fa2966445787307d90fc9d
 }
 
 .navbar-default .navbar-toggle {
@@ -58,8 +82,18 @@
   color: #555;
   background-color: #e7e7e7;
 }
+.navbar-default .navbar-nav > li > button {
+  border: 1px solid #e44e35;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff9eb;
+  font-size: 22px;
+  background-color: #898076;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   /* Misc Tags */
+}
 
 h1 {
 	color: #E34E35;
