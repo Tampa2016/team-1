@@ -17,6 +17,9 @@
     <!-- Scrolling CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css">
+
     <!-- custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
