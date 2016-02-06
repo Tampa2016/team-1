@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include "_include/classes.php"; include "_include/theme/head.php";  ?>
   
     <!-- Intro Section -->
@@ -34,11 +33,5 @@
             </div>
         </div>
     </section>
-=======
-<?php include "_include/classes.php"; include "_include/theme/head.php";   ?>
-    <h1>Code for Good!</h1>
->>>>>>> d6c7288cd225efb4e48a895af196a409e7f573d9
-
-
 
 <?php include "_include/theme/foot.php"; ?>
