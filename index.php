@@ -43,9 +43,11 @@
                 navigator.geolocation.getCurrentPosition(function(position) {
                   var pos = {
                     lat: position.coords.latitude,
-                    lng: position.coords.longitude
+                    lng: position.coords.longitude,
                   };
-
+                  $.post( "classes.php", add_lat_long(lat,lng) {
+                    alert( "Data Loaded: " + data );});
+                 
                   infoWindow.setPosition(pos);
                   infoWindow.setContent('Location found.');
                   map.setCenter(pos);
