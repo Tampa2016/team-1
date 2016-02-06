@@ -23,8 +23,8 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-    <section id="map" class="map-section">
+<!-- Map Section -->
+<section id="map" class="map-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -49,7 +49,6 @@ function initMap() {
       var pos = {
         lat: position.coords.latitude,
         lng: position.coords.longitude
-        console.log(latitude);
       };
 
       infoWindow.setPosition(pos);
