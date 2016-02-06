@@ -54,6 +54,7 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
+      alert(pos)
 
       infoWindow.setPosition(pos);
       infoWindow.setContent('Location found.');
