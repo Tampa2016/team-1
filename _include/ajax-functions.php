@@ -16,7 +16,14 @@
 		$pass  = isset($_POST['pass']) ? $_POST['pass'] : "";
 		if($email != "" && $user != "" && $pass != ""){
 			$objUser = new users();
-			$objUser->create_user($email, $user, $pass);
+			$objExists = new exists();
+			
+			if(!$objExists-> user_exists($user)){
+				$objUser->create_user($email, $user, $pass);
+			}else{
+				echo '<p style="color:red;">There is a user with that username already!</p>';
+			}
+
 		} else{
 			echo '<p style="color:red;">One or More Fields Were Left Blank</p>';
 		}
