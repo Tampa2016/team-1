@@ -88,6 +88,7 @@ h1 {
 
 .info-section, .h1 {
     padding-top: 5px;
+    height: 60%;
     text-align: center;
     background: #e44e35;
     color: #fff;
@@ -95,6 +96,7 @@ h1 {
 
 .map-section {
     padding-top: 25px;
+    height: 60%;
     margin: 7%;
     text-align: center;
     background: #fff;
@@ -103,6 +105,7 @@ h1 {
 
 .intro-section {
     padding-top: 75px;
+    height: 60%;
     text-align: center;
     background-color: #fffff0;
 }
